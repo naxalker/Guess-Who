@@ -110,6 +110,7 @@ InitTestScene*.unity*
 
 .vscode
 .claude
+/UIElementsSchema/
 /Assets/Kamgam
 /Assets/Kamgam.meta
 /Assets/Le Tai's Asset

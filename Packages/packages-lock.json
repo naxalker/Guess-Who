@@ -11,10 +11,11 @@
       "hash": "73eb27aeccfa8e0676eaf3304136e9b85953d913"
     },
     "com.cysharp.messagepipe": {
-      "version": "file:com.cysharp.messagepipe",
+      "version": "https://github.com/Cysharp/MessagePipe.git?path=src/MessagePipe.Unity/Assets/Plugins/MessagePipe",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "7f7ac8619942849c92eee160118998534a1529df"
     },
     "com.cysharp.messagepipe.vcontainer": {
       "version": "https://github.com/Cysharp/MessagePipe.git?path=src/MessagePipe.Unity/Assets/Plugins/MessagePipe.VContainer",
