@@ -127,10 +127,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -869234979447040602, guid: b1846fd093b51894eaffb683bcabc63f, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -219,6 +215,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -229,6 +233,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 6705180}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6705182 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 6705180}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &45124421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -237,10 +252,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -1176274568439130604, guid: 899d4be12bea7fd4ea013b8118280e05, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -329,6 +340,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -339,6 +358,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 45124421}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &45124423 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 45124421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &151188982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -347,10 +377,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 8172377299707588097, guid: c5b9d3597bf628746a455e113773c2bc, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -439,6 +465,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -449,6 +483,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 151188982}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &151188984 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 151188982}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &374834730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -457,10 +502,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -48639048801417243, guid: 1f4a905831cb1e9488e1255143729547, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -549,6 +590,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -559,6 +608,125 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 374834730}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &374834732 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 374834730}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
+--- !u!1 &418440071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 418440073}
+  - component: {fileID: 418440072}
+  - component: {fileID: 418440075}
+  - component: {fileID: 418440074}
+  - component: {fileID: 418440076}
+  - component: {fileID: 418440077}
+  m_Layer: 0
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &418440072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418440071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
+  m_PanelSettings: {fileID: 11400000, guid: b8a395e959ca1f34eb0a052d8e793723, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: e6f0d0c9fd9ccf0439a0f8315cb5cebb, type: 3}
+  m_SortingOrder: 0
+  m_Position: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+  m_PivotReferenceSize: 0
+  m_Pivot: 0
+  m_WorldSpaceCollider: {fileID: 0}
+--- !u!4 &418440073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418440071}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &418440074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418440071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33683776aacbb042a2e44b5b3fca8ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Kamgam.UIToolkitGlow::Kamgam.UIToolkitGlow.GlowDocument
+--- !u!114 &418440075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418440071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6978f6c8ef351b4cba4941f4819d2cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Kamgam.UIToolkitGlow::Kamgam.UIToolkitGlow.GlowConfigRootProvider
+  ConfigRoot: {fileID: 11400000, guid: fbfc6270fe0f8874ba4984b6d8a8111d, type: 2}
+--- !u!114 &418440076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418440071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc62e7dfcb2d02046b7357d374cd9684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GuessWho::GuessWho.GameplayUI
+--- !u!114 &418440077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418440071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e63128f38ed81a4eb648db22163ad98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GuessWho::GuessWho.PreparingPhaseUI
 --- !u!1001 &469974683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -567,10 +735,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -4005650903270862429, guid: 3bd0528e66df5de4293295894b3df8e7, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -659,6 +823,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -669,6 +841,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 469974683}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &469974685 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 469974683}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &469984160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -677,10 +860,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -3851312784042902909, guid: e555df94506c9484a8647a6dc710f1e0, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -769,6 +948,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -779,6 +966,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 469984160}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &469984162 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 469984160}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,7 +1058,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.1254902, g: 0.07058824, b: 0.29803923, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -924,10 +1122,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -2858837527301235631, guid: 6d958a1dcd0c67241aeae3d8cbd14a33, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -1016,6 +1210,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1026,6 +1228,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 602872914}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &602872916 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 602872914}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,10 +1410,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 3276699001797390212, guid: 6a66485caf0eca848960688ce8996c2d, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -1289,6 +1498,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1299,6 +1516,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 750573783}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &750573785 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 750573783}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1 &776097636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1394,7 +1622,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 919134094}
-  - {fileID: 2086332740}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1410,10 +1637,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 8574495501831785117, guid: 45063bd34593d684d93e2f0e04c2d47f, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -1502,6 +1725,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1512,6 +1743,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 898514082}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &898514084 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 898514082}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1 &919134093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,8 +1811,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 72}
+  m_SizeDelta: {x: 0, y: -656}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &919134095
 MonoBehaviour:
@@ -1592,7 +1834,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 160, y: 160}
+  m_CellSize: {x: 170, y: 170}
   m_Spacing: {x: 40, y: 40}
   m_Constraint: 1
   m_ConstraintCount: 4
@@ -1604,10 +1846,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -6924331630389574170, guid: 63461bfb9fc99864daeafad470dd9380, type: 3}
     - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
@@ -1700,6 +1938,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1710,6 +1956,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 935836238}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &935836240 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 935836238}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &1198409094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1718,10 +1975,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -7746862400825618281, guid: 37f72940430596443acfe08001c9c140, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -1810,6 +2063,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1820,6 +2081,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 1198409094}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1198409096 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 1198409094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &1346235857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1828,10 +2100,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 47591339185844687, guid: 73743fabf88caab41bd07bb7802e4e34, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -1920,6 +2188,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1930,6 +2206,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 1346235857}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1346235859 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 1346235857}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &1448197885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1938,10 +2225,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -1138390205438498750, guid: 109cdb484ce69834c9c764fb437a654f, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -2030,6 +2313,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2040,6 +2331,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 1448197885}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1448197887 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 1448197885}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &1462016533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2048,10 +2350,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -5427526802243217438, guid: e82292d682aea364c944b50c9716e701, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -2140,6 +2438,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2150,6 +2456,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 1462016533}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1462016535 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 1462016533}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &1530044935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2158,10 +2475,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 8618943064496914865, guid: ab5e9bedd0d041d4c8df554ba8b0ff6c, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -2250,6 +2563,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2260,6 +2581,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 1530044935}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1530044937 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 1530044935}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &1538314702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2268,10 +2600,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 4805806395258403693, guid: ede7f39e7d6d69741b3f9c0a44d14aa2, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -2360,6 +2688,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2370,6 +2706,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 1538314702}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1538314704 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 1538314702}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &1548647152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2378,10 +2725,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -8504779696036687459, guid: 7b0fb114b245d5d42bd1cfaf3471b499, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -2470,6 +2813,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2480,6 +2831,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 1548647152}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1548647154 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 1548647152}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &1581439941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2488,10 +2850,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1211984495415808437, guid: 0e3917bac35f80848b7cc51b9b9420dc, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -2580,6 +2938,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2590,6 +2956,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 1581439941}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1581439943 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 1581439941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &1754497611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2598,10 +2975,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -5288871465113746377, guid: 7483cbb1cfc7fd94ba19a89213e0bc74, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -2690,6 +3063,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2700,6 +3081,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 1754497611}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1754497613 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 1754497611}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1 &1831799083
 GameObject:
   m_ObjectHideFlags: 0
@@ -2734,6 +3126,33 @@ MonoBehaviour:
   autoRun: 1
   autoInjectGameObjects:
   - {fileID: 776097636}
+  - {fileID: 418440071}
+  _cardsSetConfig: {fileID: 11400000, guid: 6cfeac36f0f4d5347b051c98fc63e115, type: 2}
+  _cardButtons:
+  - {fileID: 1928758934588281765}
+  - {fileID: 374834732}
+  - {fileID: 1581439943}
+  - {fileID: 1538314704}
+  - {fileID: 6705182}
+  - {fileID: 1870986046}
+  - {fileID: 469974685}
+  - {fileID: 602872916}
+  - {fileID: 2014508029}
+  - {fileID: 1462016535}
+  - {fileID: 1346235859}
+  - {fileID: 1448197887}
+  - {fileID: 1548647154}
+  - {fileID: 469984162}
+  - {fileID: 45124423}
+  - {fileID: 935836240}
+  - {fileID: 2113384265}
+  - {fileID: 151188984}
+  - {fileID: 1198409096}
+  - {fileID: 750573785}
+  - {fileID: 1754497613}
+  - {fileID: 1530044937}
+  - {fileID: 2071071097}
+  - {fileID: 898514084}
 --- !u!4 &1831799085
 Transform:
   m_ObjectHideFlags: 0
@@ -2757,10 +3176,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -257327108462002843, guid: faba1d6cf18b46b488812c7994c2ad9e, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -2849,6 +3264,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2859,6 +3282,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 1870986044}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1870986046 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 1870986044}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &2014508027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2867,10 +3301,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1489759102397597292, guid: 84ce320aec153854f97c305d8185d0cb, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -2959,6 +3389,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2969,6 +3407,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 2014508027}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2014508029 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 2014508027}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &2071071095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2977,10 +3426,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -4510341742022511608, guid: 92490fb26380e9245bb838c32ca87447, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -3069,6 +3514,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3079,156 +3532,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 2071071095}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2086332739
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2086332740}
-  - component: {fileID: 2086332742}
-  - component: {fileID: 2086332741}
-  - component: {fileID: 2086332743}
-  m_Layer: 5
-  m_Name: RemainedCardsText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2086332740
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086332739}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 776097640}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -201.705}
-  m_SizeDelta: {x: 200, y: 171.409}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2086332741
+--- !u!114 &2071071097 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 2071071095}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086332739}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 24
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 4096
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 0
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &2086332742
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086332739}
-  m_CullTransparentMesh: 1
---- !u!114 &2086332743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086332739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc62e7dfcb2d02046b7357d374cd9684, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: GuessWho::GuessWho.RemainedCardsText
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &2113384263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3237,10 +3551,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -7303745027330998571, guid: dc61764a0537c2343bf58c57be975f5c, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -3329,6 +3639,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3339,6 +3657,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
   m_PrefabInstance: {fileID: 2113384263}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2113384265 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 2113384263}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!1001 &1928758934588281764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3347,10 +3676,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 919134094}
     m_Modifications:
-    - target: {fileID: 1525208113286713592, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 2773033545567569812, guid: b764f8c65a914d54a92ba518efa14e76, type: 3}
     - target: {fileID: 6692003646720799285, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -3439,11 +3764,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 9042672500196421157, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+--- !u!114 &1928758934588281765 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6615427162648554145, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
+  m_PrefabInstance: {fileID: 1928758934588281764}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502be868ed84694fae5dd5d32192f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardButton
 --- !u!224 &2776551165663900411 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7211652301376775002, guid: 126b42e549524af4b99cb0eaa57d3136, type: 3}
@@ -3455,6 +3799,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
+  - {fileID: 418440073}
   - {fileID: 776097640}
   - {fileID: 628517276}
   - {fileID: 1831799085}

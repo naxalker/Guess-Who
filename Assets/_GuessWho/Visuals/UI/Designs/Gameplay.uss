@@ -1,0 +1,103 @@
+:root {
+}
+
+.header-container {
+    flex-grow: 0;
+    height: 256px;
+    background-color: rgb(25, 15, 58);
+    padding-top: 128px;
+    flex-direction: row;
+    padding-bottom: 16px;
+}
+
+#message-text-field #unity-text-input {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left-color: rgb(55, 51, 69);
+    border-right-color: rgb(55, 51, 69);
+    border-top-color: rgb(55, 51, 69);
+    border-bottom-color: rgb(55, 51, 69);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    background-color: rgb(34, 30, 50);
+    -unity-font-definition: url("project://database/Assets/_GuessWho/Visuals/Fonts/Nunito-Bold.ttf?fileID=12800000&guid=d0463d7441e210240b4d5f906f5d3f65&type=3#Nunito-Bold");
+    color: rgb(142, 139, 150);
+    font-size: 28px;
+    -unity-text-align: middle-left;
+}
+
+.avatar-container {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("project://database/Assets/_GuessWho/Visuals/UI/gradient-circle.svg?fileID=7388822144124034973&guid=232c3d3a095cb784d9405b6c7bc76379&type=3#gradient-circle");
+    -unity-background-image-tint-color: rgb(122, 79, 217);
+    overflow: hidden;
+    aspect-ratio: 1;
+    width: 100%;
+}
+
+.character-btn {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgb(63, 39, 108);
+    border-left-color: rgb(151, 121, 190);
+    border-right-color: rgb(151, 121, 190);
+    border-top-color: rgb(151, 121, 190);
+    border-bottom-color: rgb(151, 121, 190);
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    width: 200px;
+    height: 256px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    overflow: hidden;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.character-btn--selected {
+    border-left-color: rgb(244, 158, 11);
+    border-right-color: rgb(244, 158, 11);
+    border-top-color: rgb(244, 158, 11);
+    border-bottom-color: rgb(244, 158, 11);
+    scale: 1.05 1.05;
+}
+
+.character-btn--selected > .checkmark {
+    opacity: 1;
+}
+
+.checkmark {
+    opacity: 0;
+}
+
+.green-btn {
+    font-size: 52px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/_GuessWho/Visuals/Fonts/Nunito-Black.ttf?fileID=12800000&guid=30485cee34aed274293c78608e4d46b1&type=3#Nunito-Black");
+    padding-bottom: 32px;
+    padding-top: 32px;
+    width: 80%;
+    background-image: url("project://database/Assets/_GuessWho/Visuals/UI/gradient.png?fileID=2800000&guid=33d638f41ab0b474e818ffaaf2dd7cd8&type=3#gradient");
+    -unity-background-image-tint-color: rgb(48, 206, 149);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}

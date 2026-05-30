@@ -5,6 +5,7 @@ using Colyseus;
 using Colyseus.Schema;
 using Cysharp.Threading.Tasks;
 using MessagePipe;
+using Unity.Properties;
 using UnityEngine;
 using VContainer.Unity;
 
@@ -14,13 +15,13 @@ namespace GuessWho
     {
         private const string ServerUrl = "ws://localhost:2567";
 
-        private readonly ISubscriber<ActiveCardsCountChangedEvent> _activeCardsCountChangedSubscriber;
-        private readonly IPublisher<OpponentCardsChangedEvent> _opponentCardsPublisher;
-
         private Client _client;
         private Room<GuessWhoState> _room;
         private CancellationTokenSource _cts;
         private IDisposable _subscription;
+
+        private readonly ISubscriber<ActiveCardsCountChangedEvent> _activeCardsCountChangedSubscriber;
+        private readonly IPublisher<OpponentCardsChangedEvent> _opponentCardsPublisher;
 
         public MultiplayerController(
             ISubscriber<ActiveCardsCountChangedEvent> activeCardsCountChangedSubscriber,
@@ -29,6 +30,9 @@ namespace GuessWho
             _activeCardsCountChangedSubscriber = activeCardsCountChangedSubscriber;
             _opponentCardsPublisher = opponentCardsPublisher;
         }
+
+        [CreateProperty]
+        public string RoomId => _room?.RoomId;
 
         public void Initialize()
         {
@@ -44,8 +48,7 @@ namespace GuessWho
             _room?.Leave();
         }
 
-
-        public async UniTask ConnectToServerAsync()
+        public async UniTask<bool> CreateRoomAsync()
         {
             _client = new Client(ServerUrl);
             try
@@ -59,25 +62,46 @@ namespace GuessWho
                     .AsUniTask()
                     .AttachExternalCancellation(_cts.Token);
 
-                Debug.Log($"Entered room: {_room.RoomId}");
+                Debug.Log($"Created room: {_room.RoomId}");
+
                 SetupStateHandlers();
+
+                return true;
             }
             catch (Exception e)
             {
-                Debug.LogError($"Connection error: {e.Message}");
+                Debug.LogError($"Room creation error: {e.Message}");
+
+                return false;
             }
         }
 
-        public async UniTask SendChatMessage(string text)
+        public async UniTask<bool> JoinRoomAsync(string roomId)
         {
-            if (_room == null) return;
-            await _room.Send("chat_message", new { text }).AsUniTask();
-        }
+            _client = new Client(ServerUrl);
+            try
+            {
+                var options = new Dictionary<string, object>
+                {
+                    { "username", $"Player_{UnityEngine.Random.Range(100, 999)}" }
+                };
 
-        public async UniTask EndTurn()
-        {
-            if (_room == null) return;
-            await _room.Send("end_turn").AsUniTask();
+                _room = await _client.JoinById<GuessWhoState>(roomId, options)
+                    .AsUniTask()
+                    .AttachExternalCancellation(_cts.Token);
+
+                Debug.Log($"Joined room: {_room.RoomId}");
+
+                SetupStateHandlers();
+
+                return true;
+            }
+            catch (Exception e)
+            {
+                Debug.LogError($"Join room error: {e.Message}");
+
+                return false;
+            }
         }
 
         private void SetupStateHandlers()
@@ -90,12 +114,21 @@ namespace GuessWho
 
                 callbacks.Listen(player, p => p.cardsActive, (current, previous) =>
                 {
-                    if (sessionId != _room.SessionId)
+                    try
                     {
-                        _opponentCardsPublisher.Publish(new OpponentCardsChangedEvent
+                        if (sessionId != _room.SessionId)
                         {
-                            ActiveCardsCount = (int)current
-                        });
+                            _opponentCardsPublisher.Publish(new OpponentCardsChangedEvent
+                            {
+                                ActiveCardsCount = (int)current
+                            });
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Debug.LogError($"cardsActive callback failed: {ex}\n{ex.StackTrace}");
+                        if (ex.InnerException != null)
+                            Debug.LogError($"Inner: {ex.InnerException}");
                     }
                 });
             });

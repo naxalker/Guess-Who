@@ -4,6 +4,6 @@ namespace GuessWho
 {
     public interface IMultiplayerService
     {
-        UniTask ConnectToServerAsync();
+        UniTask<bool> CreateRoomAsync();
     }
 }

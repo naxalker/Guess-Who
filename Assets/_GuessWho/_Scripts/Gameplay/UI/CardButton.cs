@@ -1,9 +1,9 @@
+using System;
 using DG.Tweening;
-using MessagePipe;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using VContainer;
 
 namespace GuessWho
 {
@@ -11,32 +11,33 @@ namespace GuessWho
     public class CardButton : MonoBehaviour,
         IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
     {
+        public event Action<bool> OnCardFlipped;
+
         private const float ANIMATION_DURATION = 0.2f;
 
         [SerializeField] private Image _character;
         [SerializeField] private Image _mark;
-
 
         private bool _isFlipped;
         private bool _isAnimating;
 
         private RectTransform _rectTransform;
         private CanvasGroup _canvasGroup;
-        private Image _image;
-
-        private IPublisher<CardFlippedEvent> _publisher;
-
-        [Inject]
-        private void Construct(IPublisher<CardFlippedEvent> publisher)
-        {
-            _publisher = publisher;
-        }
+        private Image _bg;
+        private TextMeshProUGUI _label;
 
         private void Awake()
         {
             _rectTransform = GetComponent<RectTransform>();
             _canvasGroup = GetComponent<CanvasGroup>();
-            _image = GetComponent<Image>();
+            _bg = GetComponent<Image>();
+            _label = GetComponentInChildren<TextMeshProUGUI>();
+        }
+
+        public void Initialize(Sprite sprite, string name)
+        {
+            _character.sprite = sprite;
+            _label.text = name;
         }
 
         private void FlipCard()
@@ -58,7 +59,8 @@ namespace GuessWho
             {
                 _isFlipped = !_isFlipped;
                 _mark.gameObject.SetActive(_isFlipped);
-                _image.enabled = !_isFlipped;
+                _label.gameObject.SetActive(!_isFlipped);
+                _bg.enabled = !_isFlipped;
                 _character.gameObject.SetActive(!_isFlipped);
             });
             sequence.Append
@@ -69,7 +71,7 @@ namespace GuessWho
             );
             sequence.OnComplete(() =>
             {
-                _publisher.Publish(new CardFlippedEvent { IsFlipped = _isFlipped });
+                OnCardFlipped?.Invoke(_isFlipped);
                 _isAnimating = false;
             });
         }

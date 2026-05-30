@@ -1,0 +1,98 @@
+.root {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    align-self: center;
+    max-width: 1080px;
+    align-items: stretch;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.title {
+    -unity-font-definition: url("project://database/Assets/_GuessWho/Visuals/Fonts/Nunito-Bold.ttf?fileID=12800000&guid=d0463d7441e210240b4d5f906f5d3f65&type=3#Nunito-Bold");
+    font-size: 100px;
+    color: rgb(76, 201, 240);
+    -unity-text-align: upper-center;
+}
+
+.divider {
+    align-items: center;
+    width: 36%;
+    align-self: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.divider-line {
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.star {
+    background-image: url("project://database/Assets/_GuessWho/Visuals/UI/round-star.png?fileID=2800000&guid=32b4183d110926244bf505301c6b117b&type=3#round-star");
+    -unity-background-image-tint-color: rgb(228, 147, 10);
+    aspect-ratio: 1;
+    width: 50px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.join-text-field .unity-text-field__input {
+    font-size: 85px;
+    -unity-text-align: middle-center;
+    -unity-font-definition: url("project://database/Assets/_GuessWho/Visuals/Fonts/Nunito-Black.ttf?fileID=12800000&guid=30485cee34aed274293c78608e4d46b1&type=3#Nunito-Black");
+    background-color: rgba(173, 142, 226, 0.3);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    color: rgba(255, 255, 255, 0.75);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.transparent-text {
+    color: rgba(255, 255, 255, 0.5);
+    -unity-font-definition: url("project://database/Assets/UltimateCleanGUIPack/Themes/Modern%20Dark/Fonts/Roboto-Medium.ttf?fileID=12800000&guid=3e561499222e34e52bae8e6b444d8275&type=3#Roboto-Medium");
+}
+
+.animated-button {
+    transition-duration: 0.1s;
+    transition-property: scale;
+}
+
+.animated-button:enabled:hover {
+    scale: 1.05 1.05;
+}
+
+.animated-button:active {
+    scale: 0.9 0.9;
+}
+
+.notification {
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 32px;
+    -unity-font-definition: url("project://database/Assets/UltimateCleanGUIPack/Themes/Modern%20Dark/Fonts/Roboto-Medium.ttf?fileID=12800000&guid=3e561499222e34e52bae8e6b444d8275&type=3#Roboto-Medium");
+    color: rgba(255, 255, 255, 0.3);
+    margin-top: 64px;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.notification--visible {
+    opacity: 1;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "GuessWho.Editor",
+    "rootNamespace": "GuessWho.Editor",
+    "references": [
+        "GUID:ed7d8d642456ebe40b3d0d8e328c39e4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -152,7 +152,7 @@ MonoBehaviour:
     TypeName: 
   autoRun: 1
   autoInjectGameObjects:
-  - {fileID: 2130204348}
+  - {fileID: 0}
 --- !u!4 &1020885783
 Transform:
   m_ObjectHideFlags: 0
@@ -305,7 +305,7 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!1 &2130204348
+--- !u!1 &1830630866
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -313,25 +313,26 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2130204350}
-  - component: {fileID: 2130204349}
-  - component: {fileID: 2130204352}
-  - component: {fileID: 2130204351}
-  - component: {fileID: 2130204353}
+  - component: {fileID: 1830630868}
+  - component: {fileID: 1830630867}
+  - component: {fileID: 1830630870}
+  - component: {fileID: 1830630869}
+  - component: {fileID: 1830630872}
+  - component: {fileID: 1830630871}
   m_Layer: 5
-  m_Name: UIDocument
+  m_Name: MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2130204349
+--- !u!114 &1830630867
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130204348}
+  m_GameObject: {fileID: 1830630866}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
@@ -348,13 +349,13 @@ MonoBehaviour:
   m_PivotReferenceSize: 0
   m_Pivot: 0
   m_WorldSpaceCollider: {fileID: 0}
---- !u!4 &2130204350
+--- !u!4 &1830630868
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130204348}
+  m_GameObject: {fileID: 1830630866}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -363,47 +364,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2130204351
+--- !u!114 &1830630869
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130204348}
+  m_GameObject: {fileID: 1830630866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08507a28490071c4ea383ec5d0fe536e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GuessWho::GuessWho.MainMenuController
+--- !u!114 &1830630870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830630866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09225dfe18b50bc4c82be9b09dccc6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GuessWho::GuessWho.Notification
+--- !u!114 &1830630871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830630866}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c33683776aacbb042a2e44b5b3fca8ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Kamgam.UIToolkitGlow::Kamgam.UIToolkitGlow.GlowDocument
---- !u!114 &2130204352
+--- !u!114 &1830630872
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130204348}
+  m_GameObject: {fileID: 1830630866}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6978f6c8ef351b4cba4941f4819d2cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Kamgam.UIToolkitGlow::Kamgam.UIToolkitGlow.GlowConfigRootProvider
   ConfigRoot: {fileID: 11400000, guid: fbfc6270fe0f8874ba4984b6d8a8111d, type: 2}
---- !u!114 &2130204353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130204348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08507a28490071c4ea383ec5d0fe536e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: GuessWho::GuessWho.MainMenuController
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1463583719}
-  - {fileID: 2130204350}
   - {fileID: 1020885783}
+  - {fileID: 1830630868}

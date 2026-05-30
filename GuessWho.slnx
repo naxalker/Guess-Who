@@ -8,4 +8,5 @@
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="DOTween.Modules.csproj" />
   <Project Path="MessagePipe.Editor.csproj" />
+  <Project Path="GuessWho.Editor.csproj" />
 </Solution>

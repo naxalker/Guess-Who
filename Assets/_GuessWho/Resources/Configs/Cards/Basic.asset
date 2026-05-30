@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec6aaa706f967c9479c24c1d3c97cc3a, type: 3}
+  m_Name: Basic
+  m_EditorClassIdentifier: GuessWho::GuessWho.CardsSetConfig
+  _characters:
+  - Index: agatha
+    Name: Agatha
+    Image: {fileID: 21300000, guid: 6d958a1dcd0c67241aeae3d8cbd14a33, type: 3}
+  - Index: albert
+    Name: Albert
+    Image: {fileID: 21300000, guid: 92490fb26380e9245bb838c32ca87447, type: 3}
+  - Index: bill
+    Name: Bill
+    Image: {fileID: 21300000, guid: 6a66485caf0eca848960688ce8996c2d, type: 3}
+  - Index: bjorn
+    Name: Bjorn
+    Image: {fileID: 21300000, guid: 1f4a905831cb1e9488e1255143729547, type: 3}
+  - Index: charlie
+    Name: Charlie
+    Image: {fileID: 21300000, guid: ede7f39e7d6d69741b3f9c0a44d14aa2, type: 3}
+  - Index: clint
+    Name: Clint
+    Image: {fileID: 21300000, guid: b1846fd093b51894eaffb683bcabc63f, type: 3}
+  - Index: emily
+    Name: Emily
+    Image: {fileID: 21300000, guid: 84ce320aec153854f97c305d8185d0cb, type: 3}
+  - Index: flora
+    Name: Flora
+    Image: {fileID: 21300000, guid: e555df94506c9484a8647a6dc710f1e0, type: 3}
+  - Index: henry
+    Name: Henry
+    Image: {fileID: 21300000, guid: 45063bd34593d684d93e2f0e04c2d47f, type: 3}
+  - Index: hiro
+    Name: Hiro
+    Image: {fileID: 21300000, guid: 3bd0528e66df5de4293295894b3df8e7, type: 3}
+  - Index: jake
+    Name: Jake
+    Image: {fileID: 21300000, guid: 7b0fb114b245d5d42bd1cfaf3471b499, type: 3}
+  - Index: leo
+    Name: Leo
+    Image: {fileID: 21300000, guid: 63461bfb9fc99864daeafad470dd9380, type: 3}
+  - Index: lily
+    Name: Lily
+    Image: {fileID: 21300000, guid: c5b9d3597bf628746a455e113773c2bc, type: 3}
+  - Index: lucy
+    Name: Lucy
+    Image: {fileID: 21300000, guid: 7483cbb1cfc7fd94ba19a89213e0bc74, type: 3}
+  - Index: marcus
+    Name: Marcus
+    Image: {fileID: 21300000, guid: faba1d6cf18b46b488812c7994c2ad9e, type: 3}
+  - Index: marie
+    Name: Marie
+    Image: {fileID: 21300000, guid: 37f72940430596443acfe08001c9c140, type: 3}
+  - Index: max
+    Name: Max
+    Image: {fileID: 21300000, guid: c6e719d5dfa36b24bada2614d6548280, type: 3}
+  - Index: mei
+    Name: Mei
+    Image: {fileID: 21300000, guid: 899d4be12bea7fd4ea013b8118280e05, type: 3}
+  - Index: naomi
+    Name: Naomi
+    Image: {fileID: 21300000, guid: 73743fabf88caab41bd07bb7802e4e34, type: 3}
+  - Index: roxy
+    Name: Roxy
+    Image: {fileID: 21300000, guid: ab5e9bedd0d041d4c8df554ba8b0ff6c, type: 3}
+  - Index: sophie
+    Name: Sophie
+    Image: {fileID: 21300000, guid: e82292d682aea364c944b50c9716e701, type: 3}
+  - Index: stella
+    Name: Stella
+    Image: {fileID: 21300000, guid: 109cdb484ce69834c9c764fb437a654f, type: 3}
+  - Index: tavo
+    Name: Tavo
+    Image: {fileID: 21300000, guid: 0e3917bac35f80848b7cc51b9b9420dc, type: 3}
+  - Index: zoe
+    Name: Zoe
+    Image: {fileID: 21300000, guid: dc61764a0537c2343bf58c57be975f5c, type: 3}

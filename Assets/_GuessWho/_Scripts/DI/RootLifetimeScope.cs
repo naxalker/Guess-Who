@@ -9,7 +9,6 @@ namespace GuessWho
         protected override void Configure(IContainerBuilder builder)
         {
             var options = builder.RegisterMessagePipe();
-            builder.RegisterMessageBroker<CardFlippedEvent>(options);
             builder.RegisterMessageBroker<ActiveCardsCountChangedEvent>(options);
             builder.RegisterMessageBroker<OpponentCardsChangedEvent>(options);
 
